@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-28T23:58:06.959Z",
+    "end": "2020-05-28T23:58:14.988Z",
+    "duration": 8029,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a29771b6-7346-4edf-924a-ef8b55cfb506",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+          "title": "Submit",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Submit \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "02f70744-d2ca-4c86-81b5-e6932c56d256",
+              "parentUUID": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Submit \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 2090,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "803c0709-0aa6-42d6-9893-da89f8ee7a94",
+              "parentUUID": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Submit \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "15a97e7f-32ac-4ab6-a9c3-5f56201ce0ea",
+              "parentUUID": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: codeceptjs.after",
+              "fullTitle": "Submit \"after each\" hook: codeceptjs.after",
+              "timedOut": false,
+              "duration": 176,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "12276178-ffd9-4cc3-ae94-fe0151757be2",
+              "parentUUID": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Perform Submit operation",
+              "fullTitle": "Submit Perform Submit operation",
+              "timedOut": false,
+              "duration": 5748,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "runSteps(child.steps)",
+              "err": {},
+              "uuid": "0c343b9b-d052-41c4-b06a-c05ed7df8b5d",
+              "parentUUID": "9324c7fb-961a-4aa2-8464-556ef74f18d3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0c343b9b-d052-41c4-b06a-c05ed7df8b5d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5748,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {},
+      "version": "5.1.0"
+    }
+  }
+}
